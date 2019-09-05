@@ -10,27 +10,27 @@ const declareOrderInfo =[
     {
         declarePolicyName:'创业将启动资金正常',
         declareNo: '10988763299762392',
-        declareTime: 1538325954,
+        declareTime: 1530411454000,
     },
     {
         declarePolicyName:'创业将启动资金正常',
         declareNo: '10988763299762392',
-        declareTime: 1539355954,
+        declareTime: 1539355954000,
     },
     {
         declarePolicyName:'创业将启动资金正常',
         declareNo: '10988763299762392',
-        declareTime: 1539385954,
+        declareTime: 1539385954000,
     },
     {
         declarePolicyName:'创业将启动资金正常',
         declareNo: '10988763299762392',
-        declareTime: 1539725954,
+        declareTime: 1539725954000,
     },
     {
         declarePolicyName:'创业将启动资金正常',
         declareNo: '10988763299762392',
-        declareTime: 1529395954,
+        declareTime: 1529395954000,
     }
 ];
 const productInfo = [
@@ -40,7 +40,7 @@ const productInfo = [
         declareNo: '10988763299762392',
         orderID: '1098763299763299762393',
         price: 500000,
-        createTime: 1539325954,
+        createTime: 1539325954000,
     },
     {
         productName: '企业文化培训',
@@ -48,7 +48,7 @@ const productInfo = [
         declareNo: '10988763299762392',
         orderID: '1098763299733299762393',
         price: 200000,
-        createTime: 1538325954,
+        createTime: 1538325954000,
     },
     {
         productName: '创意培训',
@@ -56,7 +56,7 @@ const productInfo = [
         declareNo: '10988763299762392',
         orderID: '1098763299763299762393',
         price: 100000,
-        createTime: 1539315954,
+        createTime: 1539315954000,
     },
     {
         productName: '企业法律培训',
@@ -64,7 +64,7 @@ const productInfo = [
         declareNo: '10988763299762392',
         orderID: '1098763299763283762394',
         price: 500000,
-        createTime: 1539425954,
+        createTime: 1539425954000,
     },
     {
         productName: '企业文化培训',
@@ -72,7 +72,7 @@ const productInfo = [
         declareNo: '10988763299762392',
         orderID: '1098761299763299762324',
         price: 400000,
-        createTime: 1539335954,
+        createTime: 1539335954000,
     }
 ];
 class TransactionList extends PureComponent{
