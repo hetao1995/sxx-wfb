@@ -69,7 +69,7 @@ componentDidMount(){
                 <div className='bg'><span><AnimateComponent value={876}/></span></div>
               </span>
               <span className='userRight'>
-                <span>双创中心</span>
+                <span></span>
                 <img alt="" src={require("../../assets/images/logout.svg")}/>
               </span>
             </Col>

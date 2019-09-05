@@ -12,7 +12,8 @@ module.exports = merge(baseConfig, {
         contentBase: path.join(__dirname,'./dist'),
         historyApiFallback: true,
         inline: true,
-        port: 8888
+        port: 8888,
+        host: '0.0.0.0',
     },
     module:{
         rules:[

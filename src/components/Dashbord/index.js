@@ -112,8 +112,8 @@ class Dashbord extends React.Component {
 
   getStarInfo(){
     const data=[
-        [207,1,101,168,19,2],
-        [87,5,96,18,4,2]
+        [1520,6782,3720,370,38,2],
+        [87,5,196,18,4,2]
       ]
       return data
   }
@@ -492,7 +492,7 @@ class Dashbord extends React.Component {
                                                 <div className='nd' style={{fontSize:"18px", color:"#FFF", opacity:"1",marginTop:"-10px", marginBottom:"15px"}}> 当前在线</div>
                                             </li>
                                             <li>
-                                                <div  className='n' style={{fontSize:"40px", color:"#FFF", opacity:"1", marginTop:"-20px"}}><AnimateComponent value={876}/></div>
+                                                <div  className='n' style={{fontSize:"40px", color:"#FFF", opacity:"1", marginTop:"-20px"}}><AnimateComponent value={12350}/></div>
                                                 <div className='nd' style={{fontSize:"18px", color:"#FFF", opacity:"1", marginTop:"-10px", marginBottom:"15px"}}>会员总数</div>
                                             </li>
                                         </ul>

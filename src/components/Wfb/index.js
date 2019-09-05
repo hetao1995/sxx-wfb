@@ -15,13 +15,13 @@ import lodashId from 'lodash/uniqueId'
 
 
 const dataInfo={
-    dealCount: 100,
-    amount: 100000000,
-    applicationCount: 100,
-    discountMoney: 100,
-    changeCount: 100,
-    changeAmount: 100,
-    maxAmount: 100,
+    dealCount: 5126,
+    amount: 11502000,
+    applicationCount: 5,
+    discountMoney: 10000,
+    changeCount: 25,
+    changeAmount: 350000,
+    maxAmount: 2500,
     minAmount:100,
 
 };
@@ -542,11 +542,9 @@ class Wfb extends PureComponent{
                         }
                         <span></span>
                     </div>
-                    {this.state.productInfo?<TransactionList
+                        <TransactionList
                         type={this.state.tabStatus}
-                        productInfo={this.state.productInfo}
-                        declareOrderInfo={this.state.declareOrderInfo}
-                    />:null}
+                        />
                     <InfoList type={this.state.tabStatus}/>
                 </div>
             </div>

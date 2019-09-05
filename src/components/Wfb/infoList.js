@@ -11,7 +11,7 @@ const tradeInfo = {
     orderID: '1098763299763299762393',
     orderCreateTime: 0,
     price: 500000,
-    companyName: '成都高新物联网科技有限公司',
+    companyName: '成都香菇年文化传媒有限公司',
     registerDate: 0,
     ownerMobile: '13880966893',
     companyCredit: 3,
@@ -30,8 +30,23 @@ const tradeInfo = {
     auditTime: 0,
     delete: true
 };
-const declarePolicyName = {
-
+const declareDetailInfo = {
+    declarePolicyName:'创业启动资金',
+    declareNo: '109887632388762393',
+    declareTime: 0,
+    policyDepartment: null,
+    companyName:'成都香菇年文化传媒有限公司',
+    registerTime: 0,
+    registerPhone:'13880966893',
+    starLevel: 5,
+    creditCardApplyTime:0,
+    creditCardType:'已下载',
+    creditCardNo:'18102514241044',
+    creditCardGrantTime: 0,
+    applyName:'黄琪',
+    auditStatus:'已审核',
+    auditTime:0,
+    auditPass:'是'
 };
 class InfoList extends PureComponent{
     constructor(props){
@@ -60,7 +75,6 @@ class InfoList extends PureComponent{
     }
 
     render(){
-        const {declareDetailInfo}=this.props
         return (
                 <div className='right-container'>
                     <div className="title">

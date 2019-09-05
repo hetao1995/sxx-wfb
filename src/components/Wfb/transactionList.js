@@ -6,7 +6,60 @@ import store from "../../store";
 import * as actionTypes from "./store/actionTypes";
 import moment from 'moment'
 import lodashId from "lodash/uniqueId";
-
+const declareOrderInfo =[
+    {
+        declarePolicyName:'创业将启动资金正常',
+        declareNo: '10988763299762392',
+        declareTime: 0,
+    },
+    {
+        declarePolicyName:'创业将启动资金正常',
+        declareNo: '10988763299762392',
+        declareTime: 0,
+    },
+    {
+        declarePolicyName:'创业将启动资金正常',
+        declareNo: '10988763299762392',
+        declareTime: 0,
+    },
+    {
+        declarePolicyName:'创业将启动资金正常',
+        declareNo: '10988763299762392',
+        declareTime: 0,
+    },
+    {
+        declarePolicyName:'创业将启动资金正常',
+        declareNo: '10988763299762392',
+        declareTime: 0,
+    }
+];
+const productInfo = [
+    {
+        declarePolicyName:'创业将启动资金正常',
+        declareNo: '10988763299762392',
+        declareTime: 0,
+    },
+    {
+        declarePolicyName:'创业将启动资金正常',
+        declareNo: '10988763299762392',
+        declareTime: 0,
+    },
+    {
+        declarePolicyName:'创业将启动资金正常',
+        declareNo: '10988763299762392',
+        declareTime: 0,
+    },
+    {
+        declarePolicyName:'创业将启动资金正常',
+        declareNo: '10988763299762392',
+        declareTime: 0,
+    },
+    {
+        declarePolicyName:'创业将启动资金正常',
+        declareNo: '10988763299762392',
+        declareTime: 0,
+    }
+];
 class TransactionList extends PureComponent{
     constructor(props){
         super(props)
@@ -57,7 +110,6 @@ class TransactionList extends PureComponent{
     }
 
     render(){
-        const {declareOrderInfo}=this.props
         return (
             <div className='middle'>
                 <span></span>
@@ -78,7 +130,7 @@ class TransactionList extends PureComponent{
                     </div>
                     :
                     <div className="list-box">
-                        {this.props.productInfo?this.props.productInfo.map((item)=>{
+                        {productInfo?productInfo.map((item)=>{
                             return (
                                 <div className={item.orderID===this.state.idBox?'active list':'list'}
                                      key={item.orderID}
