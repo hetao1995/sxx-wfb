@@ -10,54 +10,64 @@ const declareOrderInfo =[
     {
         declarePolicyName:'创业将启动资金正常',
         declareNo: '10988763299762392',
-        declareTime: 0,
+        declareTime: 1538325954,
     },
     {
         declarePolicyName:'创业将启动资金正常',
         declareNo: '10988763299762392',
-        declareTime: 0,
+        declareTime: 1539355954,
     },
     {
         declarePolicyName:'创业将启动资金正常',
         declareNo: '10988763299762392',
-        declareTime: 0,
+        declareTime: 1539385954,
     },
     {
         declarePolicyName:'创业将启动资金正常',
         declareNo: '10988763299762392',
-        declareTime: 0,
+        declareTime: 1539725954,
     },
     {
         declarePolicyName:'创业将启动资金正常',
         declareNo: '10988763299762392',
-        declareTime: 0,
+        declareTime: 1529395954,
     }
 ];
 const productInfo = [
     {
         declarePolicyName:'创业将启动资金正常',
         declareNo: '10988763299762392',
-        declareTime: 0,
+        orderId: '1098763299763299762393',
+        price: 500000,
+        declareTime: 1539325954,
     },
     {
         declarePolicyName:'创业将启动资金正常',
         declareNo: '10988763299762392',
-        declareTime: 0,
+        orderId: '1098763299733299762393',
+        price: 200000,
+        declareTime: 1538325954,
     },
     {
         declarePolicyName:'创业将启动资金正常',
         declareNo: '10988763299762392',
-        declareTime: 0,
+        orderId: '1098763299763299762393',
+        price: 100000,
+        declareTime: 1539315954,
     },
     {
         declarePolicyName:'创业将启动资金正常',
         declareNo: '10988763299762392',
-        declareTime: 0,
+        orderId: '1098763299763283762394',
+        price: 500000,
+        declareTime: 1539425954,
     },
     {
         declarePolicyName:'创业将启动资金正常',
         declareNo: '10988763299762392',
-        declareTime: 0,
+        orderId: '1098761299763299762324',
+        price: 400000,
+        declareTime: 1539335954,
     }
 ];
 class TransactionList extends PureComponent{

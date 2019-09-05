@@ -385,31 +385,31 @@ class Dashbord extends React.Component {
                             <div style={{padding:"0 0 10px 5px",color: '#fff'}}>创新信用券服务商</div>
                             <ul>
                                 <li>
-                                    <div><AnimateComponent value={3}/></div>
+                                    <div><AnimateComponent value={6787}/></div>
                                     <div>
                                         <img alt="" src={star}/>
                                     </div>
                                 </li>
                                 <li>
-                                    <div><AnimateComponent value={48}/></div>
+                                    <div><AnimateComponent value={3916}/></div>
                                     <div>
                                         <img alt="" src={star}/>  <img alt="" src={star}/>
                                     </div>
                                 </li>
                                 <li>
-                                    <div><AnimateComponent value={16}/></div>
+                                    <div><AnimateComponent value={388}/></div>
                                     <div>
                                         <img alt="" src={star}/> <img alt="" src={star}/> <img alt="" src={star}/>
                                     </div>
                                 </li>
                                 <li>
-                                    <div><AnimateComponent value={4}/></div>
+                                    <div><AnimateComponent value={42}/></div>
                                     <div>
                                         <img alt="" src={star}/><img alt="" src={star}/><img alt="" src={star}/><img alt="" src={star}/>
                                     </div>
                                 </li>
                                 <li>
-                                    <div><AnimateComponent value={2}/></div>
+                                    <div><AnimateComponent value={4}/></div>
                                     <div>
                                         <img alt="" src={star}/><img alt="" src={star}/><img alt="" src={star}/><img alt="" src={star}/><img alt="" src={star}/>
                                     </div>
