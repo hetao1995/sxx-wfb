@@ -1,0 +1,222 @@
+@media (max-width: 1500px) {
+  .home-container{
+    .FO{
+      font-size: 16px!important;
+    }
+    .item3{
+      height:134px;
+      .l3{
+        img{
+          width: 70px;
+          height: 70px;
+        }
+      }
+      .item3-box{
+        .number{
+          font-size: 33px !important;
+        }
+        .text{
+          padding-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+.home-container{
+  margin-top: 20px;
+  min-width: 1200px;
+  .Float{
+    .item1{
+      width: 100%;
+      height: 162px;
+      overflow: hidden;
+      border: 1px solid rgb(34, 165, 247);
+      .FO{
+        color: #fff;
+        padding: 20px 25px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: nowrap;
+        height: 162px;
+        font-size: 19px;
+        transition: all 500ms;
+        overflow: hidden;
+        div>span:nth-child(2){
+          margin: 0 10px;
+          white-space: nowrap;
+        }
+        img{
+          margin-top: 6px;
+          margin-right: 10px;
+        }
+      }
+    }
+    .item2{
+      border: 1px solid rgb(34, 165, 247);
+      width: 100%;
+      //min-width: 480px;
+      margin: 10px 0;
+      height: 292px;
+      overflow: hidden;
+      padding: 10px 25px;
+      box-sizing: border-box;
+      .Items{
+        font-size: 19px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        white-space: nowrap;
+      }
+    }
+    .item3{
+      border: 1px solid rgb(34, 165, 247);
+      width: 100%;
+      padding:25px;
+      height:134px;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow: hidden;
+      .l3{
+        display: flex;
+        flex-wrap: nowrap;
+        color: #fff;
+      }
+      .item3-box{
+        .number{
+          font-family: DIGIT;
+          font-size:43px;
+          transition: all 500ms;
+        }
+        .text{
+          margin-top:-10px;
+          margin-left:0;
+          white-space: nowrap;
+        }
+      }
+    }
+    .item4{
+      width: 100%;
+      //min-width: 480px;
+    }
+    .Four{
+      width: 100%;
+      border: 1px solid rgb(34, 165, 247);
+      min-width: 480px;
+      img{ width: 41px; }
+      ul{
+        display: flex;
+        li{
+          flex:1;
+          padding: 7px;
+          color: #fff;
+          div:nth-child(2){
+            font-size: 33px;
+            margin:-5px 0;
+          }
+          div{
+            text-align: center;
+          }
+        }
+      }
+    }
+    .FourS{
+      border: 1px solid rgb(34, 165, 247);
+      width: 100%;
+      min-width: 480px;
+      margin:10px 0;
+      padding: 15px;
+      box-sizing: border-box;
+      height: 164px;
+      padding-bottom: 0;
+      ul{
+        display: flex;
+        flex-wrap: nowrap;
+        li{
+          color:#00EAFF;
+          text-align: center;
+          flex: 1;
+          height: 93px;
+          background: url("../../assets/images/tb_fws.png") no-repeat;
+          background-size: 100%;
+          font-weight: 400;
+          >div:nth-child(1){
+            margin-top: 15px;
+            font-size: 29px;
+          }
+          >div:nth-child(2){margin-top: -4px;}
+          img{width: 13px;}
+        }
+      }
+    }
+
+    .bpNumber{
+      border: 1px solid rgb(34, 165, 247);
+      width: 100%;
+      min-width: 480px;
+      display: flex;
+      .Cnumber{
+        display: inline-block!important;
+      }
+      >div:nth-child(1){
+        margin-right: 5px;
+        >div:nth-child(1){
+          height: 38px !important;
+        }
+      }
+      >div:nth-child(2){
+        margin-left: 5px;
+        >div:nth-child(1){
+          height: 38px !important;
+        }
+      }
+      .bpstar{
+        display: flex;
+        padding: 14px 20px;
+        box-sizing: border-box;
+        >div:nth-child(1){
+          flex:1
+        }
+        >div:nth-child(2){
+          flex:0
+        }
+        >div:nth-child(3){
+          flex:4;
+          max-width:200px;
+          min-width: 160px;
+        }
+      }
+    }
+  }
+  .ca{
+    flex-direction: column;
+    margin-top: 30px;
+    div{
+      flex: 1;
+    }
+    &>div:nth-child(1){
+
+      margin: 0 10px;
+    }
+    ul{
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      li{
+        flex: 1;
+        text-align: center;
+        align-self: center;
+      }
+    }
+    .ant-progress-circle .ant-progress-text{
+      color: #fff;
+    }
+    .circle{
+      :global{
+        .ant-progress-circle-trail{
+          stroke: #1e2f5a;
+        }
+      }
+    }
+  }
+}
